@@ -1,0 +1,5 @@
+outs:
+- md5: 300133c6afd2a793052297625249df71.dir
+  size: 93415856481
+  nfiles: 19802
+  path: refseq
