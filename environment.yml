@@ -19,6 +19,7 @@ dependencies:
   - msgpack-python
   - ncurses
   - nose
+  - ncbi-datasets-cli
   - olefile
   - openssl
   - python

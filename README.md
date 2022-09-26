@@ -11,6 +11,7 @@ Overview of files:
 
 | File | Description |
 |------|-------------|
+| P0_get_genomes.sh | draft sourcing data, ignore for now |
 | P1_TableGenerator.py | Extracts all protein sequences from the refseq bacterial and archeael genomes. |
 | P2_Table2Fasta | Creates a fasta file with the protein sequences from P1. |
 | P3_16S_TableGenerator.py | Extracts 16sRNA sequences from the genome. |
