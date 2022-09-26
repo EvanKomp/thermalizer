@@ -1,0 +1,8 @@
+stages:
+  protein_sequence_table:
+    cmd: python3 P1_TableGenerator.py
+    deps:
+    - P1_TableGenerator.py
+    - data/refseq
+    outs:
+    - ./data/seq_dic.tsv

@@ -22,7 +22,7 @@ dependencies:
   - ncbi-datasets-cli
   - olefile
   - openssl
-  - python
+  - python>=3.8
   - pandas
   - pillow
   - pip
@@ -43,5 +43,5 @@ dependencies:
   - pip:
     - msgpack
     - dvc[ssh]
-prefix: /home/dacb/anaconda3/envs/thermalizer
+
 

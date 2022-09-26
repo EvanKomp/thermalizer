@@ -1,0 +1,16 @@
+schema: '2.0'
+stages:
+  protein_sequence_table:
+    cmd: python3 P1_TableGenerator.py
+    deps:
+    - path: P1_TableGenerator.py
+      md5: 0005d1b6247b6c3c503b068a75e6a400
+      size: 1777
+    - path: data/refseq
+      md5: 300133c6afd2a793052297625249df71.dir
+      size: 93415856481
+      nfiles: 19802
+    outs:
+    - path: ./data/seq_dic.tsv
+      md5: 8df4aea808c63d402cfe13ce83344e4f
+      size: 14319226415

@@ -1,4 +1,5 @@
 [core]
     remote = ssh-storage
+    autostage = true
 ['remote "ssh-storage"']
     url = ssh://128.208.236.235/work/evankomp/thermalizer_dvc
