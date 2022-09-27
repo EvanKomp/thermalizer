@@ -6,3 +6,10 @@ stages:
     - data/refseq
     outs:
     - ./data/seq_dic.tsv
+  protein_sequence_fasta:
+    cmd: bash P2_Table2Fasta
+    deps:
+    - ./data/seq_dic.tsv
+    - P2_Table2Fasta
+    outs:
+    - ./data/seq_dic.fasta
