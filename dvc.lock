@@ -27,3 +27,17 @@ stages:
     - path: ./data/seq_dic.fasta
       md5: 93bb7a2cfd27647f7b540faeda4f9d17
       size: 11704918828
+  16s_sequence_table:
+    cmd: python P3_16S_TableGenerator.py
+    deps:
+    - path: ./data/refseq
+      md5: 300133c6afd2a793052297625249df71.dir
+      size: 93415856481
+      nfiles: 19802
+    - path: P3_16S_TableGenerator.py
+      md5: 8cd4a9e98cb7f5df58027eee19c75aef
+      size: 1849
+    outs:
+    - path: ./data/16S_seq_dic.tsv
+      md5: 924721f91cbc78a9b1a3bfa3f74c845b
+      size: 15822784

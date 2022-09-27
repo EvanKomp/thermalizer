@@ -13,3 +13,10 @@ stages:
     - P2_Table2Fasta
     outs:
     - ./data/seq_dic.fasta
+  16s_sequence_table:
+    cmd: python P3_16S_TableGenerator.py
+    deps:
+    - ./data/refseq
+    - P3_16S_TableGenerator.py
+    outs:
+    - ./data/16S_seq_dic.tsv

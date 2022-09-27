@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 
 # Specify data location
-homedir = "/work/data/refseq/"
+homedir = "./data/refseq/"
 
 start_time = datetime.now()
 
@@ -18,7 +18,7 @@ for root, dirs, files in os.walk(homedir):
             file_count = file_count + 1
 
 current_file = 0
-f = open("16S_seq_dic.tsv", "w")
+f = open("data/16S_seq_dic.tsv", "w")
 f.write("organism\tlocus\tproduct\tsequence\n")
 print("Mission start:")
 for root, dirs, files in os.walk(homedir):
